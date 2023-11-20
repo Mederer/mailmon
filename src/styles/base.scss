@@ -1,0 +1,9 @@
+@use "./vars";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: vars.$background-color;
+}
