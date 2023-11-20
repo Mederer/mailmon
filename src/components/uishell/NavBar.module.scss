@@ -1,0 +1,20 @@
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .navItem {
+    font-size: 2.6rem;
+    margin-right: 5.8rem;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    color: inherit;
+    transition: all .2s;
+
+    &.active {
+      text-decoration-color: rgba(0, 0, 0, 1);
+    }
+    &:hover {
+      text-decoration-color: rgba(0, 0, 0, 1);
+    }
+  }
+}
