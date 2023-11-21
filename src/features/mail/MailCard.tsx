@@ -13,11 +13,8 @@ export default function MailCard({mail}: MailCardProps) {
         </div>
 
         <div className={styles.row}>
-            <span>{mail.carrier}</span>
-        </div>
-
-        <div className={styles.row}>
             <span>{mail.shippingMethod}</span>
+            <span>{mail.carrier}</span>
         </div>
     </div>
 }
