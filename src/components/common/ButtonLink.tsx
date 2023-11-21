@@ -7,6 +7,7 @@ interface ButtonLinkProps {
     children: React.ReactNode;
     minWidth: number;
 }
+
 export default function ButtonLink({to, children, minWidth}: ButtonLinkProps) {
     const additionalStyles = {
         minWidth: `${minWidth}rem`
