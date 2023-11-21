@@ -5,6 +5,7 @@ import MailDetailsScreen from "./components/screens/MailDetailsScreen.tsx";
 import MailScreen from "./components/screens/MailScreen.tsx";
 import NotFoundScreen from "./components/screens/NotFoundScreen.tsx";
 import Layout from "./components/uishell/Layout.tsx";
+import AddMailScreen from "./components/screens/AddMailScreen.tsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/login" element={<LoginScreen />} />
                 <Route path="/mail" element={<MailScreen />} />
                 <Route path="/mail/:id" element={<MailDetailsScreen />} />
+                <Route path="/mail/new" element={<AddMailScreen />} />
                 <Route path="*" element={<NotFoundScreen />} />
             </Route>
         </Routes>
